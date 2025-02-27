@@ -127,6 +127,26 @@
   },
   {
     "ContainingType": "deneme.Controllers.KrediController",
+    "Method": "GetAyaGoreBasvuru",
+    "RelativePath": "api/Kredi/ayagorebasvuru",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.KrediController",
+    "Method": "GetAyKrediTuruBasvuru",
+    "RelativePath": "api/Kredi/aykrediturubasvuru",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.KrediController",
     "Method": "GetBasvurular",
     "RelativePath": "api/Kredi/basvurular",
     "HttpMethod": "GET",
@@ -163,6 +183,16 @@
   },
   {
     "ContainingType": "deneme.Controllers.KrediController",
+    "Method": "GetKrediOrani",
+    "RelativePath": "api/Kredi/krediorani",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.KrediController",
     "Method": "KrediTurTutarFiltrele",
     "RelativePath": "api/Kredi/krediTurTutarfiltrele",
     "HttpMethod": "POST",
@@ -195,6 +225,26 @@
   },
   {
     "ContainingType": "deneme.Controllers.KrediController",
+    "Method": "GetKrediTuruGrafik",
+    "RelativePath": "api/Kredi/krediturugrafik",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.KrediController",
+    "Method": "GetOnayaGoreBasvuru",
+    "RelativePath": "api/Kredi/onayagorebasvuru",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.KrediController",
     "Method": "OnayDurumuFiltrele",
     "RelativePath": "api/Kredi/onayfiltrele",
     "HttpMethod": "POST",
@@ -220,6 +270,22 @@
       {
         "Name": "filtre",
         "Type": "deneme.Controllers.KrediController\u002BDateFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "deneme.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LoginRequest",
         "IsRequired": true
       }
     ],
